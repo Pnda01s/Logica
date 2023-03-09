@@ -1,1 +1,2 @@
-# Logica
+# Logica 
+ Repositório para compartilhar os projetos.
