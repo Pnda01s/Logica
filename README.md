@@ -1,2 +1,2 @@
 # Logica 
- Repositório para compartilhar os projetos.
+ Repositório para compartilhar os projetos oi :).
