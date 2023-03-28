@@ -13,7 +13,7 @@ namespace tarefa02_210323
    
             string nomeAluno;
             double nota1, nota2, nota3, nota4, media;
-            char conceito;
+            char conceito = '0';
 
             Console.WriteLine("\t\t---Calcula nota do aluno---");
 
@@ -53,26 +53,18 @@ namespace tarefa02_210323
             else if (media >= 20.0)
             {
                 conceito = 'E';
-            }
-            else
-            {
-                conceito = 'F';
-            }
+            }     
 
             Console.WriteLine($"Nome do aluno: {nomeAluno}");
             switch (conceito)
             {
                 case 'A':
-                    Console.WriteLine("Situação: Aprovado");
-                    break;
                 case 'B':
-                    Console.WriteLine("Situação: Aprovado");
-                    break;
                 case 'C':
                     Console.WriteLine("Situação: Aprovado");
                     break;
                 case 'D':
-                    Console.WriteLine("Situação: Aprovado");
+                    Console.WriteLine("Situação: Recuperação");
                     break;
                 case 'E':
                     Console.WriteLine("Situação: Exame");
