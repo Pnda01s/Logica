@@ -53,7 +53,8 @@ namespace tarefa02_210323
             else if (media >= 20.0)
             {
                 conceito = 'E';
-            }     
+            }
+            Console.Clear();
 
             Console.WriteLine($"Nome do aluno: {nomeAluno}");
             switch (conceito)
