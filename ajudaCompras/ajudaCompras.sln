@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ajudaCompras", "ajudaCompras\ajudaCompras.csproj", "{19767FB1-9B85-4B1E-AB3C-8D4503A3873D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numeroDeVotos", "numeroDeVotos\numeroDeVotos.csproj", "{228D3A09-B827-45EB-BB3D-305F1AC96E49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{19767FB1-9B85-4B1E-AB3C-8D4503A3873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19767FB1-9B85-4B1E-AB3C-8D4503A3873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19767FB1-9B85-4B1E-AB3C-8D4503A3873D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228D3A09-B827-45EB-BB3D-305F1AC96E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228D3A09-B827-45EB-BB3D-305F1AC96E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228D3A09-B827-45EB-BB3D-305F1AC96E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228D3A09-B827-45EB-BB3D-305F1AC96E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
