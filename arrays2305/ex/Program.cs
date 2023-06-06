@@ -15,11 +15,11 @@ namespace ex
             for (int i = 0; i < X.Length; i++)
             {
                 Console.Write("Informe o valor para o elemento " + i + ": ");
-                X[i] = Convert.ToInt32(Console.ReadLine());
+                X[i] = int.Parse(Console.ReadLine());
             }
 
             Console.Write("Informe o índice (0 a 9): ");
-            int P = Convert.ToInt32(Console.ReadLine());
+            int P = int.Parse(Console.ReadLine());
 
            
             if (P >= 0 && P < X.Length)
